@@ -1,0 +1,16 @@
+{
+  "rows_in": 60600,
+  "duplicates_removed": 600,
+  "rows_valid": 58339,
+  "rows_quarantined": 1661,
+  "quarantine_by_reason": {
+    "invalid_date": 360,
+    "price_outlier": 175,
+    "invalid_price": 236,
+    "missing_size": 712,
+    "unknown_area": 178
+  },
+  "reject_rate": 0.02768,
+  "gate": 0.1,
+  "passed": true
+}

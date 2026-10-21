@@ -1,0 +1,7 @@
+{
+  "events": 1494,
+  "alerts": 255,
+  "throughput_eps": 6880.6,
+  "event_to_score_p50_ms": 120.8,
+  "event_to_score_p95_ms": 199.5
+}

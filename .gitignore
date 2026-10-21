@@ -1,0 +1,13 @@
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+data/
+models/
+reports/
+mlruns/
+mlartifacts/
+.terraform/
+*.tfstate*
+.env

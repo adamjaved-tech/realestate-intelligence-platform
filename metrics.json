@@ -1,0 +1,20 @@
+{
+  "version": "510f68dd",
+  "test_mae_aed": 259364.55800013107,
+  "test_mape": 0.07165766293617637,
+  "test_median_ape": 0.060394366833574666,
+  "test_within_10pct": 0.7377295299688186,
+  "test_r2": 0.973151858722752,
+  "baseline_mae_aed": 439095.49281504616,
+  "baseline_mape": 0.11665685074022226,
+  "baseline_median_ape": 0.09366960320870932,
+  "baseline_within_10pct": 0.5311236863379143,
+  "baseline_r2": 0.9082438546607335,
+  "interval_coverage": 0.7401547522808638,
+  "interval_nominal": 0.8,
+  "best_iteration": 285,
+  "train_rows": 42635,
+  "valid_rows": 4108,
+  "test_rows": 8659,
+  "promoted": true
+}

@@ -1,0 +1,13 @@
+groups:
+  - name: propintel
+    rules:
+      - alert: HighErrorRate
+        expr: sum(rate(propintel_requests_total{status=~"5.."}[5m])) / sum(rate(propintel_requests_total[5m])) > 0.02
+        for: 5m
+        labels: {severity: page}
+        annotations: {summary: "More than 2% of API requests are failing"}
+      - alert: SlowValuations
+        expr: histogram_quantile(0.95, sum by (le) (rate(propintel_request_seconds_bucket{path="/v1/valuations"}[5m]))) > 0.25
+        for: 10m
+        labels: {severity: warn}
+        annotations: {summary: "p95 valuation latency above 250 ms"}

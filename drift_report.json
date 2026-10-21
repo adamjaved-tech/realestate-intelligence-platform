@@ -1,0 +1,75 @@
+{
+  "status": "ALERT",
+  "rows": 2000,
+  "drifted_features": [
+    "size_sqft",
+    "pred_to_baseline_ratio",
+    "area"
+  ],
+  "features": {
+    "bedrooms": {
+      "type": "numeric",
+      "psi": 0.0009,
+      "ks_stat": 0.0111,
+      "ks_pvalue": 0.9939931378539,
+      "status": "OK"
+    },
+    "bathrooms": {
+      "type": "numeric",
+      "psi": 0.0003,
+      "ks_stat": 0.007,
+      "ks_pvalue": 0.9999996751416589,
+      "status": "OK"
+    },
+    "size_sqft": {
+      "type": "numeric",
+      "psi": 0.5557,
+      "ks_stat": 0.2063,
+      "ks_pvalue": 1.113223948749435e-53,
+      "status": "ALERT"
+    },
+    "floor": {
+      "type": "numeric",
+      "psi": 0.0036,
+      "ks_stat": 0.0128,
+      "ks_pvalue": 0.9714971854831728,
+      "status": "OK"
+    },
+    "age_years": {
+      "type": "numeric",
+      "psi": 0.0016,
+      "ks_stat": 0.0056,
+      "ks_pvalue": 0.9999999999696494,
+      "status": "OK"
+    },
+    "parking_spots": {
+      "type": "numeric",
+      "psi": 0.0,
+      "ks_stat": 0.0024,
+      "ks_pvalue": 1.0,
+      "status": "OK"
+    },
+    "pred_to_baseline_ratio": {
+      "type": "numeric",
+      "psi": 1.6616,
+      "ks_stat": 0.5521,
+      "ks_pvalue": 3.493e-321,
+      "status": "ALERT"
+    },
+    "area": {
+      "type": "categorical",
+      "psi": 0.5682,
+      "status": "ALERT"
+    },
+    "property_type": {
+      "type": "categorical",
+      "psi": 0.001,
+      "status": "OK"
+    },
+    "view": {
+      "type": "categorical",
+      "psi": 0.0001,
+      "status": "OK"
+    }
+  }
+}
